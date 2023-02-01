@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.12+commit.f00d7308"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -34,6 +34,25 @@
 				"name": "fund",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "funders",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -138,11 +157,11 @@
 			]
 		},
 		"contracts/Fundme.sol": {
-			"keccak256": "0xb6711409a43a628532c084289ec67b432e9c83fdb1c0f6036a1044f5b3f9a013",
+			"keccak256": "0xe3f6b28a50d088decd3ced1656d7922b8d7e71101b5de8939923524936161e39",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2812e90209103d651f4e99b9fdb18697667ae37c89370879808490e14636b2bf",
-				"dweb:/ipfs/QmVnsaFPES5r3Uibb2ggWDRBf2yxmtYXymii3aAjt98n2Y"
+				"bzz-raw://eed3e56f146179f98c9dd8b9b793f2c42dcb0ca26ca4997b1bcda9d8840273f3",
+				"dweb:/ipfs/QmYRbPs3yieNoZKQNFqQgYUDLpNrJufA9MgLjiLUVNSpLu"
 			]
 		}
 	},
